@@ -1,7 +1,6 @@
 body {
-    font-family: 'Futura', sans-serif;
+    font-family: Helvetica 'Courier New', Courier, monospace;
     background-color: black;
-    color: #333;
 }
 
 .section {
@@ -9,20 +8,80 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 1920px;
-    padding-top: 200px;
+    padding-top: 180px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sopr {
-    
+    font-family: 'Futura', sans-serif;
     background-color: red;
     color: white;
-    padding-left: 20px;
+
+    text-transform: uppercase;
+    padding: 8px 2px 8px 13px ;
+}
+
+.image {
+    width: 27px;
+    height: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+
+}
+
+
+.insta {
+    width: 20px;
+    height: 20px;
+}
+
+.youtube {
+    width: 33px;
+    height: 33px;
+    padding-left: 5px;
+}
+
+.spotify {
+    width: 30px;
+    height: 35px;
+    padding-right: 8px;
+}
+
+.facebook {
+    width: 40px;
+    height: 25px;
     
 }
 
-.shapka {
-    height: 100px;
+.appstore {
+    width: 23px;
+    height: 23px;
+}
+
+.we-chat {
+    width: 23px;
+    height: 23px;
+    padding: 10px;
+}
+
+.e {
+    padding: 2px;
+}
+
+
+.linked {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.linked:hover {
+    background-color: red;
 }
 
 .link {
@@ -32,14 +91,16 @@ body {
 .flights {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 125px;
+    margin-right: 90px;
+    
 }
 
 
 
 
 .date {
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
 }
 
