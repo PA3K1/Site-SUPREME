@@ -32,10 +32,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 80px;
+    padding-right: 70px;
 
 }
-
 
 .insta {
     width: 20px;
@@ -101,11 +100,7 @@ body {
 
 
 
-.date {
-    padding-top: 10px;
-    color: white;
-    
-}
+
 
 header h1 {
     font-size: 24px;
