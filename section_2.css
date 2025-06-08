@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    padding-top: 50px;
+}
+
+.sopr {
+    font-family: "Prompt", sans-serif;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 2px 8px 13px ;
+}
+
+.link {
+    text-decoration: none;
+        font-size: 15px;
+}
+
+.date {
+    padding-top: 1px;
+    color: black;
+    
+}
+
+
+
+
+.table {
+    display: flex;
+    justify-content: center;  
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.rele {
+    height: 112px;
+
+}
+
+.tex {
+    width: 100px;
+    padding-left: 1335px;
+}
+
+.pep {
+    font-size: 14px;
+}
+
+.pep:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.line {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.rea {
+    padding-right: 510px;
+}
+
+.ae:hover {
+    background-color: red;
+    color: white;
+}
+
+
