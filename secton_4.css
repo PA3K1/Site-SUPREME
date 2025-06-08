@@ -21,10 +21,12 @@ body {
     color: white;
     text-transform: uppercase;
     padding: 8px 2px 8px 13px ;
+
 }
 
 .link {
     text-decoration: none;
+        font-size: 15px;
 }
 
 .date {

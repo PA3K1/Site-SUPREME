@@ -1,66 +1,60 @@
-.supreme-collab {
-  font-family: 'Futura', sans-serif;
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  border-top: 1px solid #000;
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.vidio {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
 }
 
-.collab-header {
+.parag {
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 30px;
+  align-items: center;
+  padding-right: 550px;
+  padding-left: 550px;
 }
 
-.collab-header h2 {
-  font-size: 24px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0;
+.ai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 220px;
 }
 
-.collab-number {
-  font-size: 12px;
-  color: #555;
+.ai:hover {
+  background-color: grey;
 }
 
-.collab-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+.footer {
+    display: flex;          /* Включаем flex-контейнер */
+    align-items: center;    /* Выравниваем элементы по вертикали */
+    gap: 20px;              /* Расстояние между элементами */
+    padding: 10px 0;        /* Отступы сверху/снизу */
+    justify-content: center; /* Центрируем содержимое */
+    padding-right: 550px;
+    padding-top: 130px;
 }
 
-.collab-item {
-  margin-bottom: 20px;
+.link {
+    text-decoration: none;
 }
 
-.music-label {
-  font-size: 12px;
-  color: #777;
-  margin-bottom: 5px;
+.sopr {
+    font-family: "Prompt", sans-serif;
+    color: white;
+    background-color: red;
+    margin: 0;              /* Убираем стандартные отступы */
+    padding:1px 5px ;      /* Добавляем внутренние отступы */
 }
 
-h3 {
-  font-size: 18px;
-  font-weight: 400;
-  margin: 0 0 15px 0;
-  text-transform: uppercase;
+.year {
+    margin: 0;              /* Убираем отступы */
+    color: black;           /* Цвет текста */
+    padding-left: 10px;
 }
 
-.artist {
-  font-style: italic;
-}
-
-.song-title {
-  font-size: 14px;
-  letter-spacing: 0.5px;
-}
-
-.exclusive {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #999;
-}
