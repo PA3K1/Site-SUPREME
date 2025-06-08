@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
 body {
-    font-family: Helvetica 'Courier New', Courier, monospace;
     background-color: black;
 }
 
@@ -13,10 +16,9 @@ body {
 }
 
 .sopr {
-    font-family: 'Futura', sans-serif;
+    font-family: "Prompt", sans-serif;
     background-color: red;
     color: white;
-
     text-transform: uppercase;
     padding: 8px 2px 8px 13px ;
 }
@@ -30,7 +32,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 70px;
+    padding-right: 80px;
 
 }
 
@@ -102,6 +104,7 @@ body {
 .date {
     padding-top: 10px;
     color: white;
+    
 }
 
 header h1 {
