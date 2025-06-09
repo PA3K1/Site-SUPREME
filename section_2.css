@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;  
     border-collapse: collapse;
-    margin: auto;
+
 }
 
 .rele {
@@ -78,5 +78,59 @@
     background-color: red;
     color: white;
 }
+
+
+.linee {
+    padding-left: 330px;
+    text-decoration: none;
+    color: black;
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    height: 30px;
+}
+
+
+.textees {
+        display: flex;
+    justify-content: center;
+    gap: 90px;
+    height: 30px;
+    padding-left: 100px;
+}
+
+.texted {
+        display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 330px;
+}
+
+.liness {
+    padding-left: 40px;
+}
+
+.lineed {
+    padding-left: 330px;
+    text-decoration: none;
+    color: white;
+}
+
+.as {
+    padding-left: 170px;
+}
+
+.aase {
+    padding-right: 50px;
+}
+
+.st {
+    text-decoration: none;
+    color: white;
+}
+
 
 
