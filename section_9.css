@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     max-width: 1920px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .sopr {
@@ -27,47 +27,12 @@
     
 }
 
-
-
-
-.table {
-    display: flex;
-    justify-content: center;  
-    border-collapse: collapse;
-
-}
-
-.rele {
-    height: 112px;
-
-}
-
-.tex {
-    width: 100px;
-    padding-left: 1335px;
-}
-
-.pep {
-    font-size: 14px;
-}
-
-.pep:hover {
-    background-color: red;
-    color: white;
-}
-
-
 .text {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-top: 300px;
 }
-
-.line {
-    text-decoration: none;
-    color: black;
-}
-
 
 
 .rea {
@@ -102,34 +67,9 @@
     padding-left: 100px;
 }
 
-.texted {
-        display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-right: 330px;
-}
-
-.liness {
-    padding-left: 40px;
-}
-
-.lineed {
-    padding-left: 330px;
+.line {
     text-decoration: none;
-    color: white;
-}
-
-.as {
-    padding-left: 170px;
-}
-
-.aase {
-    padding-right: 50px;
-}
-
-.st {
-    text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .section-9 {
@@ -160,6 +100,41 @@
     background-color: red;
     color: white;
 }
+
+.byr input[type="email"]::placeholder {
+    color: black;           /* Цвет placeholder */
+    font-size: 14px;       /* Размер placeholder */
+}
+
+
+.byr input[type="email"] {
+    font-size: 10px;       /* Размер текста */
+    color: white;           /* Цвет текста */
+    background-color: white; /* Цвет фона */
+    padding: 10px;         /* Внутренние отступы */
+    border: 1px solid red; /* Граница */
+    width: 700px;          /* Ширина поля */
+    height: 20px;
+}
+
+
+.sectio-main {
+    padding-left: 500PX;
+    padding-top:180PX;
+}
+
+.red {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+    
+
 
 
 
