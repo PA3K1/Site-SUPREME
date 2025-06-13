@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Gallery Slider</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .date {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .gallery-container {
+            width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 20px 0;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .gallery-track {
+            display: inline-block;
+            white-space: nowrap;
+        }
+        
+        .gallery-item {
+            display: inline-block;
+            width: 300px;
+            margin-right: 20px;
+            vertical-align: top;
+            white-space: normal;
+            background: white;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .gallery-item h3 {
+            margin-top: 0;
+            color: #333;
+            font-size: 18px;
+        }
+        
+        .gallery-item ul {
+            padding-left: 20px;
+        }
+        
+        .gallery-item li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        /* Стиль для ползунка (скроллбара) */
+        .gallery-container::-webkit-scrollbar {
+            height: 8px;
+        }
+        
+        .gallery-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        .gallery-container::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        
+        .gallery-container::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        .red-box {
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="red-box">Supreme</div>
+        <div class="date">12.06.2025, 21111, LMI</div>
+    </div>
+    
+    <div class="gallery-container">
+        <div class="gallery-track">
+            <!-- Галерея заданий -->
+            <div class="gallery-item">
+                <h3>Задание</h3>
+                <ul>
+                    <li><strong>Восемь</strong></li>
+                    <li><strong>Москва</strong></li>
+                    <li><strong>Компания</strong></li>
+                </ul>
+            </div>
+            
+            <div class="gallery-item">
+                <h3>Задание</h3>
+                <ul>
+                    <li><strong>Сегодняшний день:</strong></li>
+                    <li><strong>Высшее</strong></li>
+                    <li><strong>Перечень</strong></li>
+                </ul>
+            </div>
+            
+            <div class="gallery-item">
+                <h3>Задание</h3>
+                <ul>
+                    <li><strong>Служба</strong></li>
+                    <li><strong>Увеличение заполнения доставки доставок</strong></li>
+                </ul>
+            </div>
+            
+            <div class="gallery-item">
+                <h3>Задание</h3>
+                <ul>
+                    <li><strong>Собор</strong></li>
+                    <li><strong>Действительно</strong></li>
+                </ul>
+            </div>
+            
+            <div class="gallery-item">
+                <h3>Задание</h3>
+                <ul>
+                    <li><strong>Способ</strong></li>
+                    <li><strong>Обеспечить</strong></li>
+                    <li><strong>Задача</strong></li>
+                </ul>
+            </div>
+            
+            <div class="gallery-item">
+                <h3>Задание</h3>
+                <ul>
+                    <li><strong>Собор на высоту/лето 2023 года</strong></li>
+                    <li><strong>Эксперт:</strong></li>
+                    <li><strong>Бюджет:</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
