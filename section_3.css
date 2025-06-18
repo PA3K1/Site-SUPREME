@@ -1,0 +1,180 @@
+.table {
+    display: flex;
+    justify-content: center;  
+    border-collapse: collapse;
+
+}
+
+.big {
+    display: flex;
+}
+
+
+
+.tex {
+    width: 100px;
+    padding-left: 1335px;
+}
+
+.pep {
+    font-size: 14px;
+}
+
+.pep:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.line {
+    text-decoration: none;
+    color: black;
+}
+
+
+.crec {
+        border:  solid transparent; /* Прозрачная рамка для плавности */
+        transition: border 0.1s; /* Плавное изменение */
+    }
+
+.crec:hover {
+        border: 2px solid red !important; /* Красная рамка при наведении */
+        box-sizing: border-box; /* Чтобы рамка не увеличивала размер */
+    }
+
+    .xq {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.cart {
+    padding-left: 1240px;
+}
+
+
+.sopr {
+    font-family: "Prompt", sans-serif;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 6px 4px 13px ;
+    margin-top: 13px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.date {
+    color: black;
+    
+}
+
+.text {
+    display: flex;
+    gap: 50px;
+    padding-left: 465px;
+    padding-top: 80px;
+
+}
+
+.textt {
+    display: flex;
+    padding-left: 500px;
+}
+
+.line {
+    text-decoration: none;
+    color: black;
+}
+
+.ae {
+    font-size: 10px;
+}  
+
+.sd {
+    padding-left: 305px;
+}
+
+
+.section-9 {
+    display: flex;
+    justify-content: center;
+}
+
+.block-1 {
+    padding-left: 30px;
+}
+
+.block {
+    padding-left: 200px;
+}
+
+.block-3 {
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.textea {
+    display: flex;
+    padding-left: 475px;
+    gap: 20px;
+}
+
+
+.linek {
+    text-decoration: none;
+    color: black;
+}
+
+.linek:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+.section-9 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.block-1 {
+    padding-left: 30px;
+}
+
+.block {
+    padding-left: 200px;
+}
+
+.block-3 {
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+
+.linek {
+    text-decoration: none;
+    color: black;
+}
+
+.linek:hover {
+    background-color: red;
+    color: white;
+}
+
+.ah {
+    padding-left: 530px;
+}
+
+.aef {
+    padding-left: 53px;
+}

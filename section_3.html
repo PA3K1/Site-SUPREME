@@ -1,157 +1,140 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supreme Gallery Slider</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        .date {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .gallery-container {
-            width: 100%;
-            overflow-x: auto;
-            white-space: nowrap;
-            padding: 20px 0;
-            -webkit-overflow-scrolling: touch;
-        }
-        
-        .gallery-track {
-            display: inline-block;
-            white-space: nowrap;
-        }
-        
-        .gallery-item {
-            display: inline-block;
-            width: 300px;
-            margin-right: 20px;
-            vertical-align: top;
-            white-space: normal;
-            background: white;
-            padding: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        .gallery-item h3 {
-            margin-top: 0;
-            color: #333;
-            font-size: 18px;
-        }
-        
-        .gallery-item ul {
-            padding-left: 20px;
-        }
-        
-        .gallery-item li {
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-        
-        /* Стиль для ползунка (скроллбара) */
-        .gallery-container::-webkit-scrollbar {
-            height: 8px;
-        }
-        
-        .gallery-container::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-        
-        .gallery-container::-webkit-scrollbar-thumb {
-            background: #888;
-            border-radius: 4px;
-        }
-        
-        .gallery-container::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-        
-        .red-box {
-            background-color: red;
-            color: white;
-            padding: 5px 10px;
-            display: inline-block;
-            margin-bottom: 15px;
-            font-weight: bold;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="section_3.css">
 </head>
 <body>
-    <div class="header">
-        <div class="red-box">Supreme</div>
-        <div class="date">12.06.2025, 21111, LMI</div>
+
+
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 5px; padding-top: 100px;">
+    <!-- Большая картинка (слева) -->
+    <img src="img/big.avif" style="width: 366px; height: auto; padding-right: 29px;">
+
+    <!-- Таблица с маленькими картинками (справа) -->
+    <table class="table" style="border-collapse: collapse;">
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/big.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/a2.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/a3.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/a4.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/a5.avif" alt=""></td>
+        </tr>
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/s1.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/s2.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/s3.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/s4.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/s5.avif" alt=""></td>
+        </tr>
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/r1.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/r2.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/r3.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/r4.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/r5.avif" alt=""></td>
+        </tr>
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/q1.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/q2.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/q3.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/q4.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/q5.avif" alt=""></td>
+        </tr>
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/z1.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/z2.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/z3.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/z4.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/z5.avif" alt=""></td>
+        </tr>
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/x1.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/x2.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/x3.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/x4.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/x5.avif" alt=""></td>
+        </tr>
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/c1.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/c2.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/c3.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/c4.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/c5.avif" alt=""></td>
+        </tr>
+        <tr class="rele">
+            <td><img class="crec" width="41" height="51" src="img/v1.avif" alt=""></td>
+            <td><img class="crec" width="41" height="51" src="img/v2.avif" alt=""></td>
+        </tr>
+    </table>
+</div>
+
+    <div class="cart">
+        <p ><a class="xq" href="index.html">1из37</a></p>
     </div>
+
+
+
+
+
+        <div class="textt">
+    <a class="line sesa rea" href="">
+        <p class="righ ae"><a class="link" href="index.html"><h1 class="sopr"><em>Supreme</em></h1></a></p>
+    </a>
+    <a class="line aef fef" href="">
+        <p class="ledte aef"><b>Весна/Лето 2025</b><br>Пуховая куртка Supreme/Дэмиена Херста<br>Мешковатые Кожаные Шорты</p>
+    </a>
+    <a class="line sd" href="">
+        <p class="ae">Архив</p>
+    </a>
+</div>
+
+
+    <div class="text">
+    <a class="line rea" href="">
+        <p class="righ ae">Магазин</p>
+    </a>
+    <a class="line ah" href="">
+        <p class="ledte ae">обзор на весну/лето 2025 года</p>
+    </a>
+    <a class="line" href="">
+        <p class="ae"><b>лукбук</b></p>
+    </a>
+    <a class="line" href="">
+        <p class="ae">Новости</p>
+    </a>
+</div>
+
+<section class="section-9">
+    <div class="block-2">
+        <p><a class="linek" href="">Случайный</a><br>
+            <a class="linek" href="">о нас </a><br>
+            <a class="linek" href="">Магазины</a>
+        </p>
+    </div>
+    <div class="block">
+        <p><a class="linek" href="">f. a. q.</a><br>
+            <a class="linek" href="">определение размера</a><br>
+            <a class="linek" href="">Контакты</a>
+        </p>
+    </div>
+    <div class="block-3">
+        <p><a class="linek" href="">Условия</a><br>
+            <a class="linek" href="">конфиденциальность</a><br>
+            <a class="linek" href="">Доставка</a>
+        </p>
+    </div>
+    <div class="block-1">
+        <p><a class="linek" href="">список рассылки</a></p>
+    </div>
+</section>
+
+
+
+
+
     
-    <div class="gallery-container">
-        <div class="gallery-track">
-            
-            <div class="gallery-item">
-                <h3>Задание</h3>
-                <ul>
-                    <li><strong>Восемь</strong></li>
-                    <li><strong>Москва</strong></li>
-                    <li><strong>Компания</strong></li>
-                </ul>
-            </div>
-            
-            <div class="gallery-item">
-                <h3>Задание</h3>
-                <ul>
-                    <li><strong>Сегодняшний день:</strong></li>
-                    <li><strong>Высшее</strong></li>
-                    <li><strong>Перечень</strong></li>
-                </ul>
-            </div>
-            
-            <div class="gallery-item">
-                <h3>Задание</h3>
-                <ul>
-                    <li><strong>Служба</strong></li>
-                    <li><strong>Увеличение заполнения доставки доставок</strong></li>
-                </ul>
-            </div>
-            
-            <div class="gallery-item">
-                <h3>Задание</h3>
-                <ul>
-                    <li><strong>Собор</strong></li>
-                    <li><strong>Действительно</strong></li>
-                </ul>
-            </div>
-            
-            <div class="gallery-item">
-                <h3>Задание</h3>
-                <ul>
-                    <li><strong>Способ</strong></li>
-                    <li><strong>Обеспечить</strong></li>
-                    <li><strong>Задача</strong></li>
-                </ul>
-            </div>
-            
-            <div class="gallery-item">
-                <h3>Задание</h3>
-                <ul>
-                    <li><strong>Собор на высоту/лето 2023 года</strong></li>
-                    <li><strong>Эксперт:</strong></li>
-                    <li><strong>Бюджет:</strong></li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
