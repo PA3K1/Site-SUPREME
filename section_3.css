@@ -179,6 +179,12 @@
     padding-left: 53px;
 }
 
+.imagee {
+  width: 366px;
+  height: auto;
+  padding-right: 29px;
+}
+
 
 
 
@@ -205,15 +211,18 @@
     margin-top: 8px;
   }
 
-  /* Галерея изображений */
-  .table {
-    display: grid;
-    gap: 10px;
-    margin: 20px 0;
-  }
+.crec {
+    width: 21px;
+    height: 31px;
+}
 
   .textt {
     padding-left: 70px;
+  }
+
+  .table {
+    width: 101px;
+    height: 370px;
   }
 
 
@@ -291,5 +300,11 @@
     display: inline-block;
     padding: 5px 0;
     font-size: 0.9rem;
+  }
+
+
+
+  .imagee {
+    width: 60px;
   }
 }
