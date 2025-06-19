@@ -12,7 +12,6 @@ body {
     align-items: center;
     max-width: 1920px;
     padding-top: 180px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sopr {
@@ -135,7 +134,7 @@ header h1 {
         padding-top: 60px; /* Уменьшаем отступ сверху */
         flex-direction: column; /* Меняем направление flex на колонку */
         align-items: flex-start; /* Выравниваем по левому краю */
-        padding-left: 15px; /* Добавляем отступ слева */
+        padding-left: 30%; /* Добавляем отступ слева */
     }
 
     .sopr {
@@ -154,7 +153,7 @@ header h1 {
     .flights {
         margin-top: 60px; /* Уменьшаем отступ сверху */
         margin-right: 0; /* Убираем отступ справа */
-        padding-left: 15px; /* Добавляем отступ слева */
+        padding-left: 30%; /* Добавляем отступ слева */
     }
 
     .flights ul {
@@ -170,7 +169,7 @@ header h1 {
         padding-right: 0; /* Убираем отступ справа */
         flex-wrap: wrap; /* Разрешаем перенос иконок на новую строку */
         justify-content: flex-start; /* Выравниваем по левому краю */
-        padding-left: 15px; /* Добавляем отступ слева */
+        padding-left: 20%; /* Добавляем отступ слева */
         margin-top: 30px; /* Добавляем отступ сверху */
         margin-bottom: 30px; /* Добавляем отступ снизу */
     }
