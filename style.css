@@ -125,3 +125,78 @@ header h1 {
 .flights li:last-child {
     border-bottom: none;
 }
+
+
+
+
+/* Медиа-запрос для устройств с шириной экрана до 768px (типичные мобильные устройства) */
+@media (max-width: 768px) {
+    .section {
+        padding-top: 60px; /* Уменьшаем отступ сверху */
+        flex-direction: column; /* Меняем направление flex на колонку */
+        align-items: flex-start; /* Выравниваем по левому краю */
+        padding-left: 15px; /* Добавляем отступ слева */
+    }
+
+    .sopr {
+        padding: 6px 2px 6px 8px; /* Уменьшаем padding */
+        font-size: 18px; /* Уменьшаем размер шрифта */
+    }
+
+    .dated {
+        margin-top: 10px; /* Добавляем отступ сверху для даты */
+    }
+
+    .date {
+        font-size: 12px; /* Уменьшаем размер шрифта даты */
+    }
+
+    .flights {
+        margin-top: 60px; /* Уменьшаем отступ сверху */
+        margin-right: 0; /* Убираем отступ справа */
+        padding-left: 15px; /* Добавляем отступ слева */
+    }
+
+    .flights ul {
+        width: 100%; /* Занимаем всю ширину */
+    }
+
+    .flights li {
+        padding: 6px 0; /* Уменьшаем отступы пунктов меню */
+        font-size: 14px; /* Увеличиваем немного размер шрифта для удобства чтения */
+    }
+
+    .images {
+        padding-right: 0; /* Убираем отступ справа */
+        flex-wrap: wrap; /* Разрешаем перенос иконок на новую строку */
+        justify-content: flex-start; /* Выравниваем по левому краю */
+        padding-left: 15px; /* Добавляем отступ слева */
+        margin-top: 30px; /* Добавляем отступ сверху */
+        margin-bottom: 30px; /* Добавляем отступ снизу */
+    }
+
+    .images a {
+        margin-right: 15px; /* Добавляем отступ между иконками */
+        margin-bottom: 10px; /* Добавляем отступ снизу для переноса */
+    }
+
+    .youtube {
+        width: 28px;
+        height: 28px;
+    }
+
+    .facebook {
+        width: 35px;
+        height: 20px;
+    }
+
+    .spotify {
+        width: 25px;
+        height: 30px;
+    }
+
+    .appstore, .we-chat {
+        width: 20px;
+        height: 20px;
+    }
+}
