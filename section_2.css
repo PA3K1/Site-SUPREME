@@ -163,3 +163,86 @@
 
 
 
+/* Медиа-запрос для устройств с шириной экрана до 768px */
+@media (max-width: 768px) {
+    .section {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 42%;
+    }
+
+    .sopr {
+        padding: 6px 10px;
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        background-color: black;
+    }
+
+    .rele {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .rele th {
+        padding: 5px;
+    }
+
+    .rele img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tex {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .text {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .rea {
+        padding-right: 0;
+    }
+
+    .section-9 {
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+
+    .block,
+    .block-1,
+    .block-2,
+    .block-3 {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .block {
+        padding-left: 0;
+    }
+
+    .block-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

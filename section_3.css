@@ -178,3 +178,118 @@
 .aef {
     padding-left: 53px;
 }
+
+
+
+
+/* Мобильная адаптация для экранов до 768px */
+@media (max-width: 768px) {
+  /* Общие стили */
+  body {
+    padding: 0 15px;
+  }
+
+  /* Шапка */
+  .section {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sopr {
+    font-size: 1.2rem;
+  }
+
+  .date {
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+
+  /* Галерея изображений */
+  .table {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+  .textt {
+    padding-left: 70px;
+  }
+
+
+
+  .rele th {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .rele img {
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+    border-radius: 2px;
+    transition: transform 0.2s;
+  }
+
+  .rele img:hover {
+    transform: scale(1.03);
+  }
+
+  /* Кнопка "Просмотреть все" */
+  .tex {
+    padding: 0;
+    width: 100%;
+    margin: 25px 0;
+    text-align: center;
+  }
+
+  .pep {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Навигационное меню */
+  .text {
+    flex-direction: column;
+    gap: 12px;
+    padding: 25px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+  }
+
+  .line {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .rea {
+    padding-right: 0;
+  }
+
+  /* Футер */
+  .section-9 {
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 0;
+  }
+
+  .block,
+  .block-1,
+  .block-2,
+  .block-3 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .linek {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 0.9rem;
+  }
+}
