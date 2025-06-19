@@ -1,4 +1,4 @@
-.section {
+        .section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
     background-color: red;
     color: white;
     text-transform: uppercase;
-    padding: 8px 13px 10px 13px ;
+    padding: 8px 13px 8px 13px ;
 }
 
 .link {
@@ -24,53 +24,71 @@
     color: black;
     
 }
+        
+        
+        
+        
+        
+        
+        .gallery-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .gallery-scroll {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            height: 700px;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            padding: 2px;
+            border-radius: 8px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            width: 188px;
+            height: 188px;
+            overflow: hidden;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.2);
+        }
+        
+        .gallery-item:hover img {
+            filter: brightness(1);
+        }
+        
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-left: 5px;
+            margin-top: 5px;
+            background: rgba(75, 74, 74, 0.26);
+            color: white;
+            padding: 5px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+        }
+        
+        .gallery-scroll::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
 
-.xq {
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-}
-
-.cart {
-    padding-left: 790px;
-}
 
 
 
 
-
-.ses {
-    color: black;
-}
-
-.ses:hover {
-    background-color: red;
-    color: white;
-}
-
-.se {
-    padding-top: 10px;
-}
-
-.sec {
-    width: 600px;
-}
-
-.sos {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-
-
-.tex {
-    width: 100px;
-    padding-left: 1335px;
-}
-
-.pep {
-    font-size: 14px;
-}
 
 .pep:hover {
     background-color: red;
@@ -82,12 +100,15 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-top: 200px;
 }
 
 .line {
     text-decoration: none;
     color: black;
+}
+
+.ae {
+    font-size: 11px;
 }
 
 
@@ -176,6 +197,8 @@
 .linek {
     text-decoration: none;
     color: black;
+    font-size: 11px;
+
 }
 
 .linek:hover {
