@@ -182,3 +182,91 @@
     background-color: red;
     color: white;
 }
+
+
+
+
+
+/* Медиа-запрос для устройств с шириной экрана до 768px */
+@media (max-width: 768px) {
+    .section {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 42%;
+    }
+
+    .sopr {
+        padding: 6px 10px;
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .sos {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .sos img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .sos div {
+        padding: 0 10px;
+    }
+
+    .cart {
+        padding-left: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .tex {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .text {
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .rea {
+        padding-right: 0;
+    }
+
+    .section-9 {
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+
+    .block,
+    .block-1,
+    .block-2,
+    .block-3 {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .block {
+        padding-left: 0;
+    }
+
+    .block-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
