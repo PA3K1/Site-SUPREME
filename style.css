@@ -138,7 +138,7 @@ header h1 {
     }
 
     .sopr {
-        padding: 6px 2px 6px 8px; /* Уменьшаем padding */
+        padding: 6px 8px 6px 18px; /* Уменьшаем padding */
         font-size: 18px; /* Уменьшаем размер шрифта */
     }
 
