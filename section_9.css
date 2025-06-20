@@ -136,5 +136,95 @@
     
 
 
+/* Медиазапрос для мобильных устройств (до 768px) */
+@media (max-width: 768px) {
+  /* Шапка */
+  .section {
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 34%;
+  }
 
+  .sopr {
+    padding: 6px 12px;
+    font-size: 1.2rem;
+  }
+
+  .date {
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+
+  /* Основной контент */
+  .sectio-main {
+    padding: 30px 15px !important;
+    text-align: center;
+  }
+
+  .block1 p, .block2 p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  /* Поле ввода email */
+  .byr input[type="email"] {
+    width: 100% !important;
+    font-size: 1rem !important;
+    height: 40px !important;
+    box-sizing: border-box;
+    padding: 12px 15px !important;
+  }
+
+  /* Кнопка подписки */
+  .pep {
+    margin-top: 20px;
+  }
+
+  .red {
+    width: 100% !important;
+    height: auto !important;
+    padding: 12px 0;
+    font-size: 1rem;
+    display: block;
+  }
+
+  /* Навигация */
+  .text {
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 15px !important;
+  }
+
+  .rea {
+    padding-right: 0 !important;
+  }
+
+  .ae {
+    font-size: 0.9rem;
+    padding: 8px 0;
+    display: inline-block;
+  }
+
+  /* Футер */
+  .section-9 {
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .block,
+  .block-1,
+  .block-2,
+  .block-3 {
+    padding: 0 !important;
+  }
+
+  .linek {
+    font-size: 0.9rem;
+    padding: 5px 0;
+    display: inline-block;
+  }
+}
 
